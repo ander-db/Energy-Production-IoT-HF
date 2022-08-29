@@ -7,7 +7,7 @@ OrdererOrgs:
         Province: Alicante
         Locality: Alicante
     Specs:
-      - Hostname: regulator
+      - Hostname: orderer
 
 PeerOrgs:
   - Name: RenewableEnergy
