@@ -6,25 +6,18 @@ Hyperledger Fabric Network files to deploy a simple case study of Energy Product
 - Node-RED
 
 ## Actors
-### Regulators
-- IndependentRegulator1
-- IndependentRegulator2
 
 ### Production
 - Non Renewable Energy
 - Renewable Energy
 
+### Transmission
+- ElectricNetwork
+
 ### Distribution
 - Distributor1
 - Distributor2
 
-### Consumers
-- Consumer1
-- Consumer2
-- Consumer3
+### Regulators
+- IndependentRegulator
 
-### Sensors
-- Sensor1N
-- Sensor1R
-- Sensor2N
-- Sensor2R
