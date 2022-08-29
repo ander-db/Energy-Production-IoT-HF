@@ -1,2 +1,3 @@
 #!/bin/bash
-rm -r crypto-config/
+rm -fr config/*
+rm -fr crypto-config/*
