@@ -74,7 +74,7 @@ Organizations:
     Name: ElectricNetworkMSP
 
     ID: ElectricNetworkMSP
-    MSPDIR: ./crypto-config/peerOrganizations/nonrenewable.energy.com/msp
+    MSPDIR: ./crypto-config/peerOrganizations/electricnetwork.energy.com/msp
 
     Policies:
       Readers:
@@ -100,7 +100,7 @@ Organizations:
     Name: Distributor1MSP
 
     ID: Distributor1MSP
-    MSPDIR: ./crypto-config/peerOrganizations/nonrenewable.energy.com/msp
+    MSPDIR: ./crypto-config/peerOrganizations/distributor1.energy.com/msp
 
     Policies:
       Readers:
@@ -125,7 +125,7 @@ Organizations:
     Name: Distributor2MSP
 
     ID: Distributor2MSP
-    MSPDIR: ./crypto-config/peerOrganizations/nonrenewable.energy.com/msp
+    MSPDIR: ./crypto-config/peerOrganizations/distributor2.energy.com/msp
 
     Policies:
       Readers:
@@ -150,7 +150,7 @@ Organizations:
     Name: RegulatorMSP
 
     ID: RegulatorMSP
-    MSPDIR: ./crypto-config/peerOrganizations/nonrenewable.energy.com/msp
+    MSPDIR: ./crypto-config/peerOrganizations/regulator.energy.com/msp
 
     Policies:
       Readers:
