@@ -8,16 +8,13 @@ Organizations:
     Policies:
       Readers:
         Type: Signature
-        Rule: "OR('EnergyMSP.admin', 'EnergyMSP.peer', 'EnergyMSP.client')"
+        Rule: "OR('EnergyMSP.member')"
       Writers:
         Type: Signature
-        Rule: "OR('EnergyMSP.admin', 'EnergyMSP.client')"
+        Rule: "OR('EnergyMSP.member')"
       Admins:
         Type: Signature
-        Rule: "OR('EnergyMSP.admin')"
-      Endorsement:
-        Type: Signature
-        Rule: "OR('EnergyMSP.peer')"
+        Rule: "OR('EnergyMSP.member')"
 
     OrdererEndpoints:
       - orderer.energy.com:7050
@@ -31,16 +28,16 @@ Organizations:
     Policies:
       Readers:
         Type: Signature
-        Rule: "OR('RenewableEnergy.admin', 'RenewableEnergy.peer', 'RenewableEnergy.client')"
+        Rule: "OR('RenewableEnergyMSP.admin', 'RenewableEnergyMSP.peer', 'RenewableEnergyMSP.client')"
       Writers:
         Type: Signature
-        Rule: "OR('RenewableEnergy.admin', 'RenewableEnergy.client')"
+        Rule: "OR('RenewableEnergyMSP.admin', 'RenewableEnergyMSP.client')"
       Admins:
         Type: Signature
-        Rule: "OR('RenewableEnergy.admin')"
+        Rule: "OR('RenewableEnergyMSP.admin')"
       Endorsement:
         Type: Signature
-        Rule: "OR('RenewableEnergy.peer')"
+        Rule: "OR('RenewableEnergyMSP.peer')"
 
     AnchorPeers:
       - Host: peer0.renewable.energy.com
@@ -56,16 +53,16 @@ Organizations:
     Policies:
       Readers:
         Type: Signature
-        Rule: "OR('NonRenewableEnergy.admin', 'NonRenewableEnergy.peer', 'NonRenewableEnergy.client')"
+        Rule: "OR('NonRenewableEnergyMSP.admin', 'NonRenewableEnergyMSP.peer', 'NonRenewableEnergyMSP.client')"
       Writers:
         Type: Signature
-        Rule: "OR('NonRenewableEnergy.admin', 'NonRenewableEnergy.client')"
+        Rule: "OR('NonRenewableEnergyMSP.admin', 'NonRenewableEnergyMSP.client')"
       Admins:
         Type: Signature
-        Rule: "OR('NonRenewableEnergy.admin')"
+        Rule: "OR('NonRenewableEnergyMSP.admin')"
       Endorsement:
         Type: Signature
-        Rule: "OR('NonRenewableEnergy.peer')"
+        Rule: "OR('NonRenewableEnergyMSP.peer')"
 
     AnchorPeers:
       - Host: peer0.nonrenewable.energy.com
@@ -82,16 +79,16 @@ Organizations:
     Policies:
       Readers:
         Type: Signature
-        Rule: "OR('ElectricNetwork.admin', 'ElectricNetwork.peer', 'ElectricNetwork.client')"
+        Rule: "OR('ElectricNetworkMSP.admin', 'ElectricNetworkMSP.peer', 'ElectricNetworkMSP.client')"
       Writers:
         Type: Signature
-        Rule: "OR('ElectricNetwork.admin', 'ElectricNetwork.client')"
+        Rule: "OR('ElectricNetworkMSP.admin', 'ElectricNetworkMSP.client')"
       Admins:
         Type: Signature
-        Rule: "OR('ElectricNetwork.admin')"
+        Rule: "OR('ElectricNetworkMSP.admin')"
       Endorsement:
         Type: Signature
-        Rule: "OR('ElectricNetwork.peer')"
+        Rule: "OR('ElectricNetworkMSP.peer')"
 
     AnchorPeers:
       - Host: peer0.electricnetwork.energy.com
@@ -108,16 +105,16 @@ Organizations:
     Policies:
       Readers:
         Type: Signature
-        Rule: "OR('Distributor1.admin', 'Distributor1.peer', 'Distributor1.client')"
+        Rule: "OR('Distributor1MSP.admin', 'Distributor1MSP.peer', 'Distributor1MSP.client')"
       Writers:
         Type: Signature
-        Rule: "OR('Distributor1.admin', 'Distributor1.client')"
+        Rule: "OR('Distributor1MSP.admin', 'Distributor1MSP.client')"
       Admins:
         Type: Signature
-        Rule: "OR('Distributor1.admin')"
+        Rule: "OR('Distributor1MSP.admin')"
       Endorsement:
         Type: Signature
-        Rule: "OR('Distributor1.peer')"
+        Rule: "OR('Distributor1MSP.peer')"
 
     AnchorPeers:
       - Host: peer0.distributor1.energy.com
@@ -133,16 +130,16 @@ Organizations:
     Policies:
       Readers:
         Type: Signature
-        Rule: "OR('Distributor2.admin', 'Distributor2.peer', 'Distributor2.client')"
+        Rule: "OR('Distributor2MSP.admin', 'Distributor2MSP.peer', 'Distributor2MSP.client')"
       Writers:
         Type: Signature
-        Rule: "OR('Distributor2.admin', 'Distributor2.client')"
+        Rule: "OR('Distributor2MSP.admin', 'Distributor2MSP.client')"
       Admins:
         Type: Signature
-        Rule: "OR('Distributor2.admin')"
+        Rule: "OR('Distributor2MSP.admin')"
       Endorsement:
         Type: Signature
-        Rule: "OR('Distributor2.peer')"
+        Rule: "OR('Distributor2MSP.peer')"
 
     AnchorPeers:
       - Host: peer0.distributor2.energy.com
@@ -158,16 +155,16 @@ Organizations:
     Policies:
       Readers:
         Type: Signature
-        Rule: "OR('Regulator.admin', 'Regulator.peer', 'Regulator.client')"
+        Rule: "OR('RegulatorMSP.admin', 'RegulatorMSP.peer', 'RegulatorMSP.client')"
       Writers:
         Type: Signature
-        Rule: "OR('Regulator.admin', 'Regulator.client')"
+        Rule: "OR('RegulatorMSP.admin', 'RegulatorMSP.client')"
       Admins:
         Type: Signature
-        Rule: "OR('Regulator.admin')"
+        Rule: "OR('RegulatorMSP.admin')"
       Endorsement:
         Type: Signature
-        Rule: "OR('Regulator.peer')"
+        Rule: "OR('RegulatorMSP.peer')"
 
     AnchorPeers:
       - Host: peer0.regulator.energy.com
