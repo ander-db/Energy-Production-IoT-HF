@@ -21,3 +21,18 @@ Hyperledger Fabric Network files to deploy a simple case study of Energy Product
 ### Regulators
 - IndependentRegulator
 
+
+## Deployment steps
+
+### Deploy Hyperledger Fabric Network
+
+```bash
+./clean.sh && ./generate && ./start.sh
+```
+
+### Node-RED
+
+```bash
+docker build -t hf-energy-iot/nodered ./node_red_data/
+docker run -d -p 1880:1880 -e FLOWS=./node_red_data/flows.json --name node-red hf-energy-iot/nodered 
+```
