@@ -9,5 +9,5 @@ services:
     stdin_open: true
     volumes:
       - ./src:/app/src
-      - ./public/assets:/app/public/assets
+      - ./public:/app/public
       - /app/node_modules

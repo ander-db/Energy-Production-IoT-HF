@@ -14,7 +14,7 @@
   margin: auto;
 
   color: white;
-  font-size: 30px;
+  font-size: var(--header-font-size);
   font-weight: var(--extra-bold);
 
 }

@@ -11,6 +11,9 @@ html { font-family: 'Inter', sans-serif; }
  --header-margin-bottom: 25px;
 
 
+ --border-radius: 20px;
+ --border: 1px dashed black;
+
  --green: #27AE60;
  --red: #EB5757;
  --blue: #2D9CDB;
@@ -18,11 +21,16 @@ html { font-family: 'Inter', sans-serif; }
  --purple: #9B51E0;
  --yellow: #F2C94C;
 
+ --green-transparent: rgba(137, 183, 35, 0.21);
+
 
  --medium: 500;
  --semi-bold: 600;
  --extra-bold: 800;
  --black: 900;
+
+ --h2-size: 20px;
+ --header-font-size: 30px;
 }
 
 body {
@@ -43,6 +51,12 @@ body {
   height: 80vh;
 
   margin: 0 auto;
+}
+
+h2 {
+  margin-top: 0.5rem;
+  font-size: var(--h2-size);
+  font-weight: var(--semi-bold);
 }
 
 
