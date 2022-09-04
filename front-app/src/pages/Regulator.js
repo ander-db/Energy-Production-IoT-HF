@@ -1,7 +1,11 @@
+import Header from '../components/Header.js';
 
 function Regulator() {
   return (
-    <div> Regulator </div>
+    <>
+      <Header Organization="Regulator Energy Organization" background="--yellow"/>
+      <div className="content"> Regulator Energy Page </div>
+    </>
   );
 }
 

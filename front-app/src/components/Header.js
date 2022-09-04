@@ -1,8 +1,12 @@
+import '../styles/Header.css';
 
-
-function Header() {
+function Header(props) {
   return (
-    <div> Header </div>
+    <header className="Header" style={{background: `var(${props.background})`}}> 
+      <div className="content">
+        {props.Organization} 
+      </div>
+    </header>
   );
 }
 

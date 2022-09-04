@@ -1,0 +1,21 @@
+.Header {
+  height: var(--header-height);
+  width: 100%;
+
+  margin-bottom: var(--header-margin-bottom);
+
+  display: flex;
+  align-items: center;
+}
+
+
+.Header .content {
+  width: var(--width);
+  margin: auto;
+
+  color: white;
+  font-size: 30px;
+  font-weight: var(--extra-bold);
+
+}
+

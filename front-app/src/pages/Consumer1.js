@@ -1,6 +1,11 @@
+import Header from '../components/Header.js';
+
 function Consumer1() {
   return (
-    <div> Consumer1 </div>
+    <>
+      <Header Organization="Consumer 1 Energy Organization" background="--orange"/>
+      <div className="content"> Consumer 1 Energy Page </div>
+    </>
   );
 }
 
