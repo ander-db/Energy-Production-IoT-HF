@@ -2,7 +2,7 @@ import '../styles/Principal.css';
 
 function Principal(props) {
   return (
-    <div className="principal-element">
+    <div className="principal-element Box">
       <h2 id="principal-title">{props.principalTitle} OFF</h2>
       <div id="principal-row-2">{props.children[0]}</div>
       <img id="principal-image" src={props.image} />

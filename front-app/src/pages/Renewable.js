@@ -1,6 +1,7 @@
 import Header from '../components/Header.js';
 import Principal from '../components/Principal.js';
 import Button from '../components/Button.js';
+import Information from '../components/Information.js';
 
 import '../styles/Renewable.css';
 
@@ -13,6 +14,7 @@ function Renewable() {
           <Button message="Toggle Production" background="--green-transparent" color="black"/>
           <Button message="Generate 1 unit" background="--green" color="white" energyIcon/>
         </Principal>
+        <Information />
       </div>
     </>
   );
