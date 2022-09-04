@@ -21,7 +21,9 @@ html { font-family: 'Inter', sans-serif; }
  --purple: #9B51E0;
  --yellow: #F2C94C;
 
- --green-transparent: rgba(137, 183, 35, 0.21);
+ --green-transparent: rgba(137, 183, 35, 0.40);
+ --red-transparent: rgba(235, 87, 87, 0.4);
+ --blue-transparent: rgba(45, 156, 219, 0.4);;
 
 
  --medium: 500;
@@ -31,6 +33,11 @@ html { font-family: 'Inter', sans-serif; }
 
  --h2-size: 20px;
  --header-font-size: 30px;
+
+
+ --elements-margin: 6px;
+ --elements-padding: 12px;
+
 }
 
 body {
