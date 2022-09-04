@@ -13,6 +13,10 @@
   border-radius: var(--border-radius);
 
   padding: 15px;
+  margin: 6px;
+
+  min-height: fit-content;
+
 }
 
 
