@@ -3,7 +3,7 @@ import '../styles/Header.css';
 function Header(props) {
   return (
     <header className="Header" style={{background: `var(${props.background})`}}> 
-      <div className="content">
+      <div id="header-title">
         {props.Organization} 
       </div>
     </header>

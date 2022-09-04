@@ -9,7 +9,7 @@
 }
 
 
-.Header .content {
+.Header #header-title {
   width: var(--width);
   margin: auto;
 

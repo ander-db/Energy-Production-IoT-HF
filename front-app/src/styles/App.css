@@ -8,7 +8,7 @@ html { font-family: 'Inter', sans-serif; }
 :root{
  --width: 900px;
  --header-height: 70px;
- --header-margin-bottom: 40px;
+ --header-margin-bottom: 25px;
 
 
  --green: #27AE60;
@@ -35,7 +35,13 @@ body {
 }
 
 .content {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+
   width: var(--width);
+  height: 80vh;
+
   margin: 0 auto;
 }
 
