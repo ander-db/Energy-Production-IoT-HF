@@ -719,6 +719,7 @@ services:
     volumes:
       - /var/run/:/host/var/run/
       - ./crypto-config:/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/
+      - ./chaincode:/opt/gopath/src/github.com/chaincode
       - ./config:/etc/hyperledger/configtx
     networks:
         - basic
@@ -749,6 +750,7 @@ services:
     volumes:
       - /var/run/:/host/var/run/
       - ./crypto-config:/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/
+      - ./chaincode:/opt/gopath/src/github.com/chaincode
       - ./config:/etc/hyperledger/configtx
     networks:
         - basic
@@ -780,6 +782,7 @@ services:
     volumes:
       - /var/run/:/host/var/run/
       - ./crypto-config:/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/
+      - ./chaincode:/opt/gopath/src/github.com/chaincode
       - ./config:/etc/hyperledger/configtx
     networks:
         - basic
@@ -810,6 +813,7 @@ services:
     volumes:
       - /var/run/:/host/var/run/
       - ./crypto-config:/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/
+      - ./chaincode:/opt/gopath/src/github.com/chaincode
       - ./config:/etc/hyperledger/configtx
     networks:
         - basic
@@ -840,6 +844,7 @@ services:
     volumes:
       - /var/run/:/host/var/run/
       - ./crypto-config:/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/
+      - ./chaincode:/opt/gopath/src/github.com/chaincode
       - ./config:/etc/hyperledger/configtx
     networks:
         - basic
@@ -870,6 +875,7 @@ services:
     volumes:
       - /var/run/:/host/var/run/
       - ./crypto-config:/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/
+      - ./chaincode:/opt/gopath/src/github.com/chaincode
       - ./config:/etc/hyperledger/configtx
     networks:
         - basic
