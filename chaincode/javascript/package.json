@@ -1,0 +1,19 @@
+{
+  "name": "production.js",
+  "version": "0.1.0",
+  "description": "Energy production network integration chaincode logic",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "fabric-chaincode-node start"
+  },
+  "keywords": [
+    "energyProduction"
+  ],
+  "author": "anderdb_",
+  "license": "ISC",
+  "dependencies": {
+    "fabric-contract-api": "^2.2.3",
+    "fabric-shim-api": "^2.2.3"
+  }
+}
