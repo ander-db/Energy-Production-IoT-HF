@@ -30,7 +30,7 @@ Hyperledger Fabric Network files to deploy a simple case study of Energy Product
 ./clean.sh && ./generate && ./start.sh
 ```
 
-### Node-RED
+### Node-RED NOT IMPLETED YET!!:warning::triangular_flag_on_post:
 
 ```bash
 docker build -t hf-energy-iot/nodered ./node_red_data/
