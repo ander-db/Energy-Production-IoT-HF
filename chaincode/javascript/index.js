@@ -1,6 +1,12 @@
+/*
+ * Copyright IBM Corp. All Rights Reserved.
+ *
+ * SPDX-License-Identifier: Apache-2.0
+ */
 
-'use stict'
+'use strict';
 
-const energyProduction = require("./lib/energyProduction.js");
+const assetTransfer = require('./lib/assetTransfer');
 
-module.exports.contracts = [energyProduction];
+module.exports.AssetTransfer = assetTransfer;
+module.exports.contracts = [assetTransfer];

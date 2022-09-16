@@ -1,4 +1,4 @@
-'use stric'
+'use stric';
 
 const { Contract } = require('fabric-contract-api');
 
